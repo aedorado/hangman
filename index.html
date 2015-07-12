@@ -1,0 +1,128 @@
+<!doctype html5>
+
+<html>
+<head>
+<meta name="keywords" 
+     content="40">
+
+<meta name="description" 
+     content="150">
+<title>HANGMAN</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div id="cover"><img src="images/loading.gif"></div>
+
+<div id="background">
+		<img src="images/lig1.jpg" id="l1" class="hidden" />
+		<img src="images/lig2.jpg" id="l2" class="hidden" />
+		<img src="images/lig3.jpg" id="l3" class="hidden" />
+	</div>
+
+<div id="title-image"><img src="images/logo.jpg" id="title-div-image" /></div>
+<div id="k">K</div>
+<div id="hangman">
+	<!--<div id="hangman-text">HANGMAN SHALL HANG</div>-->
+	
+	<img src="images/0.gif" id="hangman-image" />
+	Lives : <span id="lives">7</span>
+	<br />
+	<button id="hint-btn" class="hide">GET HINT</button>
+	<div id="l">L</div>
+</div>
+
+<div id="high-score"></div>
+<div id="category-display"></div>
+
+<div id="b">B</div>
+
+<article>
+	
+		
+	<div id="rules">
+		<div id="c">C</div>
+		<div id="m">M</div>
+	R<br />U<br />L<br />E<br />S<br />
+		<div id="rules-display">
+		<ul>
+			<li>Choose a category.</li>
+			<li>Protect hangman by guessing the missing words.</li>
+			<li>Guesses are made bt pressing keys on the keyboard.</li>
+			<li>Each wrong guess will take Hangman closer to death.</li>
+			<li>You can exchange a life or few points for a hint</li>
+		</ul>
+	</div>
+	<div id="o">O</div>
+	</div>
+
+	<div id="points">
+	</div>
+
+	<div id="wrong-guess">
+	</div>
+
+	<div id="end-game"  class="hide">
+		The game has ended.<br />
+		<button id="new-game-btn-2">Click to Restart</button>
+	</div>
+	
+	<div id="choice" class="">
+	<span id="n">N</span> Category <span id="n">N</span>:
+	<div id="select">
+	<div id="i">I</div>
+	<select id="category">
+		<option disabled selected>Please Choose..</option>
+		<option value="moviesE">English Movies</option>
+		<option value="moviesH">Hindi Movies</option>
+	</select>
+	</div>
+</div>
+	<div id="continue" class="hide">
+		CORRECT!<br />
+		<button class="" id="continue-game-btn">Continue</button>
+		<button class="" id="new-game-btn">New Game</button>
+	</div>
+
+	<div id="blanks">
+	</div>
+<!--
+	<div class="alphabet">
+		<div class="letter">A</div><div class="letter">B</div>
+		<div class="letter">C</div><div class="letter">D</div>
+		<div class="letter">E</div><div class="letter">F</div>
+		<div class="letter">G</div><div class="letter">H</div>
+		<div class="letter">I</div><div class="letter">J</div>
+		<div class="letter">K</div><div class="letter">L</div>
+		<div class="letter">M</div><div class="letter">N</div>
+		<div class="letter">O</div><div class="letter">P</div>
+		<div class="letter">Q</div><div class="letter">R</div>
+		<div class="letter">S</div><div class="letter">T</div>
+		<div class="letter">U</div><div class="letter">S</div>
+		<div class="letter">W</div><div class="letter">X</div>
+		<div class="letter">Y</div><div class="letter">Z</div>
+	</div>
+-->
+
+<footer>
+Also Try : 
+<ul id="footer">
+	<li><a href="http://www.lykpic.com/wordmaster/">WORDMASTER</a></li>
+	<li><a href="http://www.lykpic.com/bouncingballs/">BOUNCING BALLS</a></li>
+	<li><a href="http://www.lykpic.com/hungerballs/">HUNGER BALLS</a></li>
+	<li><a href="http://www.lykpic.com/puzzler/">PUZZLER</a></li>
+</ul>
+</footer>
+
+</article>
+</body>
+
+<script type="text/javascript" src="script.js">
+</script>
+
+</html>
+
+<!-- 
+ -->
