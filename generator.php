@@ -1,7 +1,5 @@
 <?php
 
-//echo $_GET['category'];
-
 $category = strtolower($_GET['category']);
 
 $file = 'questions.json';
